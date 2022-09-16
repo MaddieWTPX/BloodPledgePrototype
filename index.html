@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+<h2 class="text-center p-100">TPXImpact Blood Pledge</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6">
+            <p>Please complete the following form to pledge that you've booked an appointment to donate blood.</p>
+            <form>
+                <div class="mb-3 form-group col-6">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                    <div class="mb-3 form-check col-6">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">I pledge to donate blood this October</label>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-6">
+            <div class="float-start ">
+                <canvas id="termome" width="100" height="700" data-valor="30" data-max="50"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="thermometer.js"></script>
+</body>
+</html>
